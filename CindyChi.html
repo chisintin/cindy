@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+    <title>紀馨婷線上簡歷</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/vue.js"></script>
+    <style>
+        .navbarbg {
+            border-bottom: 2px rgb(211, 211, 211);
+            padding: 25px 0px;
+
+        }
+
+        .navbarshadow {
+            background-color: #198cd2;
+            color: #fff;
+            box-shadow: 0px 0px 10px #414141;
+
+        }
+
+        .headstyle {
+            border-radius: 10px;
+
+        }
+
+        .cardcenter {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .aboutme {
+            padding: 20px 30px;
+            line-height: 30px;
+            border-left: 3px solid #94d0f5;
+            margin: 20px 0px;
+        }
+
+        .aboutme .fas {
+            color: #198cd2;
+        }
+
+        .fontbg {
+            background-color: #198cd2;
+            color: #fff;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .listcolor {
+            color: #94d0f5;
+            padding: 0px 15px;
+        }
+
+        .listheight {
+            margin: 20px 0px;
+        }
+
+        .skill {
+            border: 1px solid #198cd2;
+            padding: 10px;
+            line-height: 60px;
+            margin-right: 10px;
+        }
+
+        a:hover {
+            color: #94d0f5;
+        }
+
+        .endstyle {
+            color: #bdbdbd;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 60px;
+            font-weight: bold;
+            line-height: 100px;
+            margin-bottom: 20px;
+        }
+
+        .allbg {
+            background-image: url(' pic/bg.png ');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: #fff;
+        }
+
+        .navbar-toggler {
+            background-color: #fff;
+            border: 1px solid #fff;
+
+        }
+
+        .navbar-toggler-icon {
+            color: #198cd2;
+            line-height: 30px;
+        }
+    </style>
+
+</head>
+
+<body class="allbg">
+    <div id="app">
+        <div class="navbarshadow">
+            <div class="container navbarbg">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="#">Cindy Chi</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ml-auto">
+                            <!-- ml-auto 推到最右邊 -->
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#aboutme">關於我</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#education">學歷</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#experience">經歷</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#autobiography">自傳</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+
+                </nav>
+            </div>
+
+        </div>
+        <div class="container mt-5" id="aboutme">
+            <div class="row">
+                <div class="col-12 col-lg-3 ">
+                    <img src="pic/head.jpg" class="img-fluid headstyle">
+                </div>
+                <div class="col-12 col-lg-9 cardcenter">
+                    <div class="cardcenter aboutme">
+                        <div>
+                            <h5><b>紀馨婷 Cindy Chi</b></h5>
+                        </div>
+                        <div><i class="fas fa-birthday-cake mr-2"></i>1991-03-03</div>
+                        <div><i class="fas fa-envelope mr-2"></i>chisintin@gmail.com</div>
+                        <div><i class="fas fa-briefcase mr-2"></i>前端網頁工程師</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div><i class="fas fa-cog mr-2 fontbg"></i><b>專長</b></div>
+            <div><span class="skill">企劃</span><span class="skill">企劃</span></div>
+
+        </div>
+        <div class="container mt-5" id="education">
+            <div><i class="fas fa-school mr-2 fontbg"></i><b>學歷</b></div>
+            <div class="listheight"><i class="fas fa-square listcolor"></i>2013年畢業 國立高雄第一科技大學 資訊管理系</div>
+            <div class="listheight"><i class="fas fa-square listcolor"></i>2013年畢業 國立高雄第一科技大學 資訊管理系</div>
+        </div>
+        <div class="container mt-5" id="experience">
+            <div><i class="fas fa-flag mr-2 fontbg"></i><b>經歷</b></div>
+            <div class="listheight"><i class="fas fa-square listcolor"></i>2016/7-2020/7<span
+                    style="color: #8a8a8a;">（4年）</span>　晨星網路科技股份有限公司　PM
+            </div>
+        </div>
+        <div class="container mt-5" id="autobiography">
+            <div><i class="fas fa-portrait mr-2 fontbg mb-4"></i><b>自傳</b></div>
+            <p>
+                　　求職者紀馨婷，畢業於國立高雄第一科技大學資訊管理系，個性活潑外向、熱心助人。我出生於平凡和樂的家庭，從國中開始，爸媽對小孩採開放式教育，於是養成我自動自發且刻苦耐勞的好習慣，也讓我學會為自己的未來努力。<br><br>
+
+                　　大學四年級的專題製作是與同學一起開發手機遊戲APP，負責的部分為規劃整個遊戲內容與架構，最終的遊戲畫面設計也是由自己操刀製作，此手機遊戲APP還在校內專題發表會上得到佳作(可參考附件1)。此外本人好於社交，不時會相約好友一起出遠門，在大學期間承諾帶好友一起韓國自助行，本身對企劃相當感興趣，所以主動扛起了擬定行程規劃與交通辦法等工作，吸收網路上的資訊並加以規畫、統整，讓我們的自助行更加順利。<br><br>
+
+                　　畢業後的第一份工作是傳奇網路股份有限公司，是台灣自製線上遊戲公司並參與專案「聖境傳說」，工作內容不外乎是要在有限的在時間內想出有趣且可行的企劃文案並順利的執行製作(可參考附件2)，也要為了提升玩家留存、營收等定時開會討論，開發新的程式功能，並撰寫企劃案供程式製作(可參考附件3)，工作上手後也同時接任了該案的美術窗口、日本窗口等。企劃除了要會撰寫企劃案之外，溝通協調也是相當重要的，在工作中也接觸到了美術、程式、海外、客服、行銷等。學習有效的時程控管與溝通協調等經驗讓我在就職的過程中受益良多也感到生活充實。<br><br>
+
+                　　為了更多元的充實自己，我進入了代理且營運遊戲的蝴蝶數位娛樂有限公司。希望可以多方面的了解營運一款遊戲所需要的相關知識，營運商與研發商的工作內容幾乎完全不同，從這份工作中也學習到了許多在研發公司所學習不到的工作技能。例如：與原廠的溝通協調、遊戲營運排程規劃、營運數據統計分析等營運方面的知識。最後在父母的期盼下，我離開了台北回鄉打拼。<br><br>
+
+                　　回高雄後進入晨星網路科技擔任PM，工作內容與以往更加不同，不僅要規劃、設計、建置網站，還需要分配程式與美術的工作內容及控時程，在有限的時間內爭取最大的產出。另外也因為美術人力的不足，在工作中學習了一些美術技能，像是設計與切版(html、CSS)，在切版過程中讓我更增添了對程式的興趣。為了更增進自己的實力，也考慮到即將要滿30歲，所以離職去報名資策會的課程，目前已錄取資策會全端工程師就業養成班(課程時間2020/8/17-2020/12/11)，待未來修成後投入程式設計師的行列。目前課程也將接近尾聲，目前正在進行期末專題的製作，被分配到的工作內容為：網站規劃設計及前端網頁製作。<br><br>
+
+                　　未來想要轉行從事程式設計師相關工作，希望可以從工作中學習到更多，並激發自己的潛能與提升這方面的能力。對我來說，做任何事情最重要的就是態度。感謝您閱讀我的自傳，若貴公司對我個人經歷感興趣，需等到資策會課程結束後才能進行進一步的面談，若未來有機會進入貴公司，馨婷必定將所學發揮到最大的效用。
+            </p>
+        </div>
+        <div class="container mt-5">
+            <div class="endstyle">Thanks for watching</div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
