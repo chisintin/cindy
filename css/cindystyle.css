@@ -1,0 +1,113 @@
+.navbarbg {
+    border-bottom: 2px rgb(211, 211, 211);
+    padding: 25px 0px;
+
+}
+
+.navbarshadow {
+    background-color: #198cd2;
+    color: #fff;
+    box-shadow: 0px 0px 10px #414141;
+
+}
+
+.headstyle {
+    border-radius: 10px;
+
+}
+
+.cardcenter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutme {
+    padding: 20px 30px;
+    line-height: 30px;
+    border-left: 3px solid #94d0f5;
+    margin: 20px 0px;
+
+}
+
+.aboutme .fas {
+    color: #198cd2;
+}
+
+.fontbg {
+    background-color: #198cd2;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.listcolor {
+    color: #94d0f5;
+    padding: 0px 15px;
+}
+
+.listheight {
+    margin: 20px 0px;
+}
+
+.skill {
+    border: 1px solid #94d0f5;
+    padding: 10px;
+    line-height: 60px;
+    margin-right: 15px;
+}
+
+a:hover {
+    color: #94d0f5;
+}
+
+.endstyle {
+    color: #bdbdbd;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 100px;
+    margin-bottom: 20px;
+}
+
+.allbg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+    border: 1px solid #fff;
+
+}
+
+.navbar-toggler-icon {
+    color: #198cd2;
+    line-height: 30px;
+}
+
+.gotop {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #198cd2;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+}
+.gotop:hover{
+    background-color: #94d0f5;
+    color: #fff;
+}
